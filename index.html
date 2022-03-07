@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/nugget" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/nugget");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .accordion {
+        width: 500px;
+        margin: 200px;
+      }
+      .accordion > li {
+        border-bottom: 1px solid rgba(224, 136, 21, 0.945);
+      }
+      li {
+        list-style: none;
+      }
+      div.title {
+        font-family: "Nugget";
+        background-color: rgb(235, 157, 55);
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      div.title:hover {
+        background-color: rgb(206, 131, 34);
+      }
+      .accordion ul li {
+        background-color: #eee;
+        border-bottom: 1px solid gainsboro;
+        font-size: 18px;
+        padding: 10px;
+      }
+
+      .accordion ul li:hover {
+        background-color: #ddd;
+      }
+
+      article {
+        background-color: rgba(248, 204, 153, 0.349);
+        height: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="accordion">
+      <li>
+        <div class="title">Frequent asked question</div>
+        <ul>
+          <li>
+            <div class="inner-title">first question</div>
+            <article>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet.
+            </article>
+          </li>
+
+          <li>
+            <div class="inner-title">second question</div>
+            <article>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Ab minus animi quaerat
+              blanditiis fugiat culpa natus consequuntur asperiores. Deleniti
+              porro dolorum architecto iste at veniam ducimus nihil itaque in
+              ut!
+            </article>
+          </li>
+
+          <li>
+            <div class="inner-title">third question</div>
+            <article>
+              enjoy life (;
+            </article>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
